@@ -1,0 +1,34 @@
+{
+  "name": "svelte-custom-elements",
+  "version": "1.0.0",
+  "description": "Turn Svelte components into web components",
+  "main": "dist/svelte-custom-elements.js",
+  "module": "dist/svelte-custom-elements.es.js",
+  "scripts": {
+    "test": "mocha",
+    "pretest": "npm run build",
+    "build": "rollup -c",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sveltejs/svelte-custom-elements.git"
+  },
+  "keywords": [
+    "svelte",
+    "web components",
+    "custom elements",
+    "polymer"
+  ],
+  "author": "Rich Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sveltejs/svelte-custom-elements/issues"
+  },
+  "homepage": "https://github.com/sveltejs/svelte-custom-elements#readme",
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "mocha": "^3.2.0",
+    "rollup": "^0.41.4"
+  }
+}
