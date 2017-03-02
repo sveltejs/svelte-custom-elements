@@ -1,6 +1,6 @@
 {
   "name": "svelte-custom-elements",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turn Svelte components into web components",
   "main": "dist/svelte-custom-elements.js",
   "module": "dist/svelte-custom-elements.es.js",
