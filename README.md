@@ -21,8 +21,7 @@ import { register } from 'svelte-custom-elements';
 
 register( 'my-component', Counter, [ 'value' ] );
 
-document.body.innerHTML = `<my-component value='42'></my-component>`;
-document.querySelector( 'body' ).appendChild( component );
+document.body.innerHTML = '<my-component value="42"></my-component>';
 ```
 
 The `register` function takes three arguments:
