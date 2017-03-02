@@ -38,7 +38,7 @@ The `register` function takes three arguments:
 
 https://svelte-custom-elements.surge.sh/
 
-TODO put a GIF here
+![svelte-custom-elements demo](demo/demo.gif)
 
 
 ## License
