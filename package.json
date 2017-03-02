@@ -4,6 +4,9 @@
   "description": "Turn Svelte components into web components",
   "main": "dist/svelte-custom-elements.js",
   "module": "dist/svelte-custom-elements.es.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "mocha",
     "pretest": "npm run build",
