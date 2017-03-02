@@ -36,7 +36,8 @@ The `register` function takes three arguments:
 
 ## Demo
 
-https://svelte-custom-elements.surge.sh/
+* [Link](https://svelte-custom-elements.surge.sh/)
+* [Source](https://github.com/sveltejs/svelte-custom-elements/tree/master/demo)
 
 ![svelte-custom-elements demo](demo/demo.gif)
 
