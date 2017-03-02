@@ -33,7 +33,7 @@ export function register ( tagName, Component, props = [] ) {
 		}
 
 		attributeChangedCallback ( attr, oldValue, newValue ) {
-			const value = isNaN( newValue ) ? newValue : +newValue
+			const value = isNaN( newValue ) ? newValue : +newValue;
 			this.data[ attr ] = value;
 			if ( this.instance ) this.instance.set({ [ attr ]: value });
 		}
@@ -55,9 +55,9 @@ export function register ( tagName, Component, props = [] ) {
 				this.data[ prop ] = value;
 				if ( this.instance ) this.instance.set({ [ prop ]: value });
 			}
-		})
+		});
 	});
 
-	const result = customElements.define( tagName, SvelteElement );
+	customElements.define( tagName, SvelteElement );
 	return SvelteElement;
 }
