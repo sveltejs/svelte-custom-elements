@@ -16,14 +16,12 @@ npm install -S svelte-custom-elements
 ...then use it in your app like so:
 
 ```js
-import MyComponent from './components/MyComponent.html';
+import Counter from './Counter.html';
 import { register } from 'svelte-custom-elements';
 
-register( 'my-component', MyComponent, [ 'value' ] );
+register( 'my-component', Counter, [ 'value' ] );
 
-const component = document.createElement( 'my-component' );
-component.setAttribute( 'value', 4 );
-
+document.body.innerHTML = `<my-component value='42'></my-component>`;
 document.querySelector( 'body' ).appendChild( component );
 ```
 
