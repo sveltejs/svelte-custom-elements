@@ -3,7 +3,7 @@ export function register ( tagName, Component, props = [] ) {
 		constructor () {
 			super();
 
-			this.target = this.attachShadow({ mode: 'closed' });
+			this.target = this.attachShadow({ mode: 'open' });
 			this.data = {};
 		}
 
