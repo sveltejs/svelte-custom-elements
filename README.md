@@ -1,3 +1,7 @@
+# This project is deprecated — Svelte can compile directly to custom elements as of version 1.37 (see [sveltejs/svelte#797](https://github.com/sveltejs/svelte/issues/797) for more info)
+
+---
+
 # svelte-custom-elements
 
 Register Svelte components as custom elements.
